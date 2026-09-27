@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Je vais prendre un café</title>
+</head>
+
+<body>
+    <header>
+        <section class="logo">
+            <img src="" alt="">
+        </section>
+        <section class="titulo">
+            <h1>Je vais prendre un café</h1>
+        </section>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contactanos">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section class="hero-carousel-container">
+           
+            <input type="radio" name="carousel" id="slide1" checked>
+            <input type="radio" name="carousel" id="slide2">
+            <input type="radio" name="carousel" id="slide3">
+            <input type="radio" name="carousel" id="slide4">
+            <input type="radio" name="carousel" id="slide5">
+            <input type="radio" name="carousel" id="slide6">
+            <input type="radio" name="carousel" id="slide7">
+
+            <div class="carousel-track-container">
+                <div class="carousel-track">
+                    <!-- 1. Espresso -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/espresso.jpg" alt="Espresso">
+                        </div>
+                        <div class="card-content">
+                            <h2>Espresso</h2>
+                            <p>Un disparo concentrado e intenso de café con una capa de crema dorada y aroma profundo.</p>
+                        </div>
+                    </article>
+
+                    <!-- 2. Espresso Doble -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/espresso doble.jpg" alt="Espresso Doble">
+                        </div>
+                        <div class="card-content">
+                            <h2>Espresso Doble</h2>
+                            <p>Dos tomas de espresso para quienes buscan un sabor robusto y el doble de energía.</p>
+                        </div>
+                    </article>
+
+                    <!-- 3. Americano -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/americano.jpg" alt="Café Americano">
+                        </div>
+                        <div class="card-content">
+                            <h2>Americano</h2>
+                            <p>Espresso diluido con agua caliente, manteniendo el perfil de sabor pero con un cuerpo más ligero.</p>
+                        </div>
+                    </article>
+
+                    <!-- 4. Cappuccino -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/Cappuccino.jpg" alt="Cappuccino">
+                        </div>
+                        <div class="card-content">
+                            <h2>Cappuccino</h2>
+                            <p>Equilibrio clásico de espresso, leche al vapor y una abundante capa de espuma cremosa.</p>
+                        </div>
+                    </article>
+
+                    <!-- 5. Latte -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/Latte.jpg" alt="Café Latte">
+                        </div>
+                        <div class="card-content">
+                            <h2>Café Latte</h2>
+                            <p>Suave combinación de espresso con bastante leche al vapor y una fina capa de espuma arriba.</p>
+                        </div>
+                    </article>
+
+                    <!-- 6. Flat White -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/flat-white.jpg" alt="Flat White">
+                        </div>
+                        <div class="card-content">
+                            <h2>Flat White</h2>
+                            <p>Ristretto doble mezclado con leche micro-espumada para una textura sedosa y sabor intenso.</p>
+                        </div>
+                    </article>
+
+                    <!-- 7. Macchiato -->
+                    <article class="hero-card">
+                        <div class="card-image">
+                            <img src="img/Macchiato.jpg" alt="Espresso Macchiato">
+                        </div>
+                        <div class="card-content">
+                            <h2>Espresso Macchiato</h2>
+                            <p>Un espresso "manchado" con apenas una cucharada de espuma de leche tibia en la superficie.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+           
+            <div class="nav-btn prev-btn">
+                <label for="slide7" class="btn-1">&#10094;</label>
+                <label for="slide1" class="btn-2">&#10094;</label>
+                <label for="slide2" class="btn-3">&#10094;</label>
+                <label for="slide3" class="btn-4">&#10094;</label>
+                <label for="slide4" class="btn-5">&#10094;</label>
+                <label for="slide5" class="btn-6">&#10094;</label>
+                <label for="slide6" class="btn-7">&#10094;</label>
+            </div>
+
+            
+            <div class="nav-btn next-btn">
+                <label for="slide2" class="btn-1">&#10095;</label>
+                <label for="slide3" class="btn-2">&#10095;</label>
+                <label for="slide4" class="btn-3">&#10095;</label>
+                <label for="slide5" class="btn-4">&#10095;</label>
+                <label for="slide6" class="btn-5">&#10095;</label>
+                <label for="slide7" class="btn-6">&#10095;</label>
+                <label for="slide1" class="btn-7">&#10095;</label>
+            </div>
+
+            
+            <div class="carousel-indicators">
+                <label for="slide1" class="indicator ind-1"></label>
+                <label for="slide2" class="indicator ind-2"></label>
+                <label for="slide3" class="indicator ind-3"></label>
+                <label for="slide4" class="indicator ind-4"></label>
+                <label for="slide5" class="indicator ind-5"></label>
+                <label for="slide6" class="indicator ind-6"></label>
+                <label for="slide7" class="indicator ind-7"></label>
+            </div>
+        </section>
+
+      
+        <section class="especialidades-section" id="especialidades">
+            <h2 class="section-title">Especialidades</h2>
+
+            <div class="grid-container">
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/Latte Macchiato.jpg" alt="Latte Macchiato">
+                    </div>
+                    <div class="card-content">
+                        <h3>Latte Macchiato</h3>
+                        <p>Leche caliente "manchada" al verter suavemente un espresso en el centro creando capas visibles.</p>
+                    </div>
+                </article>
+
+                
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/Moka.jpg" alt="Café Moka">
+                    </div>
+                    <div class="card-content">
+                        <h3>Café Moka</h3>
+                        <p>Mezcla tentadora de espresso, jarabe de chocolate artesanal y leche al vapor.</p>
+                    </div>
+                </article>
+
+               
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/affogato.jpg" alt="Affogato">
+                    </div>
+                    <div class="card-content">
+                        <h3>Affogato</h3>
+                        <p>Postre y café en uno: una bola de helado de vainilla ahogada en un shot de espresso caliente.</p>
+                    </div>
+                </article>
+
+                
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/Iced Latte.jpg" alt="Iced Latte">
+                    </div>
+                    <div class="card-content">
+                        <h3>Iced Latte</h3>
+                        <p>Espresso servido sobre leche fría y cubos de hielo, perfecto para días calurosos.</p>
+                    </div>
+                </article>
+
+                <!-- 12. Cold Brew -->
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/cold brew.jpg" alt="Cold Brew">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cold Brew</h3>
+                        <p>Café infusionado en agua fría durante 12 a 24 horas, obteniendo una bebida suave y nada ácida.</p>
+                    </div>
+                </article>
+
+                <!-- 13. Café Bombón -->
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/cafe bombon.jpg" alt="Café Bombón">
+                    </div>
+                    <div class="card-content">
+                        <h3>Café Bombón</h3>
+                        <p>Espresso servido en vaso de cristal sobre una base dulce de leche condensada.</p>
+                    </div>
+                </article>
+
+                <!-- 14. Caramel Macchiato -->
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/Caramel Macchiato.jpg" alt="Caramel Macchiato">
+                    </div>
+                    <div class="card-content">
+                        <h3>Caramel Macchiato</h3>
+                        <p>Leche al vapor con vainilla, coronada con espresso y una rejilla de salsa de caramelo.</p>
+                    </div>
+                </article>
+
+                <!-- 15. Irish Coffee -->
+                <article class="cafe-card">
+                    <div class="card-image">
+                        <img src="img/Irish Coffe.jpg" alt="Irish Coffee">
+                    </div>
+                    <div class="card-content">
+                        <h3>Café Irlandés</h3>
+                        <p>Café caliente mezclado con whisky irlandés, azúcar moreno y una capa de crema batida en la superficie.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Je vais prendre un café</h3>
+                <p>Café de especialidad, preparado con pasión y servido con calidez, todos los días del año.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#contactanos">Contáctanos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact" id="contactanos">
+                <h4>Contáctanos</h4>
+                <p>Tegucigalpa, Honduras</p>
+                <p>hola@jevaisprendreuncafe.com</p>
+                <p>+504 0000-0000</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Je vais prendre un café. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
